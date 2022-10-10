@@ -1,0 +1,8 @@
+@use 'variables' as a;
+
+.card {
+  max-width: 64rem;
+  width: calc(100% - 16rem);
+  background: a.$color-bg;
+  
+}
