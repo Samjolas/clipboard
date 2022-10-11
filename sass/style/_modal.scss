@@ -5,6 +5,8 @@
   max-width: 70rem;
 }
 
+
+
 .mt-20 {
   margin-top: a.$m-20;
 }
@@ -14,8 +16,16 @@
 .mt-50 {
   margin-top: a.$m-50;
 }
+.mt-80 {
+  margin-top: a.$m-80;
+}
+.workflow,.partners {
+  max-width: 112rem;
+  margin: auto;
+}
 
-.history,.track {
+.history,.track,.access,.workflow,.partners,.download {
   margin-bottom: 10rem; 
 }
+
 

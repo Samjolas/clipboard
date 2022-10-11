@@ -24,4 +24,47 @@
   }
 }
 
+.track {
+  &__details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__list {
+    max-width: 35rem;
+    margin: auto 10rem;
+    display: grid;
+    gap: 7rem;
+    
+  }
+  &__items{
+    list-style-type: none;
+  }
+}
+
+.access {
+  &__device{
+    margin: auto;
+  }
+}
+
+.workflow {
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.5rem;
+  }
+  &__items{
+    list-style-type: none;
+    text-align: center;
+  }
+  &__icon{
+    margin: auto;
+  }
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 

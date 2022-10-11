@@ -13,15 +13,23 @@
     text-align: center;
     font-weight: a.$fw-600;
   }
+  &__sub {
+    color: a.$color-main;
+    font-size: a.$fs-600;
+    font-weight: a.$fw-600;
+  }
 }
 
 .para {
   &__accent {
-    font-size: a.$fs-600;
+    font-size: a.$fs-500;
     text-align: center;
   }
   &__main {
-    font-size: a.$fs-500;
+    font-size: a.$fs-400;
     text-align: center;
+  }
+  &__sub {
+    font-size: a.$fs-300;
   }
 }
