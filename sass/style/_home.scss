@@ -1,8 +1,17 @@
 @use 'variables' as a;
 
-.card {
-  max-width: 64rem;
-  width: calc(100% - 16rem);
-  background: a.$color-bg;
-  
+.header {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(../images/bg-header-desktop.png) no-repeat top; 
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+  }
 }
+
+
