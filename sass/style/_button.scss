@@ -12,11 +12,13 @@
   border-radius: 5rem;
   font-size: 15px;
   position: relative;
+  box-shadow: 0 1rem 2.5rem 0 var(--color);
+  color: a.$color-btn;
   &::after{
     content: "";
     position: absolute;
     inset: 0;
-    transform: scale(1, 1.06);
+    transform: scale(1, 1.05);
     translate: 0 .1rem;   
     background: var(--color);
     width: 23rem;
