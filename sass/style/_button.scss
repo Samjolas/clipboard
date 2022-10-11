@@ -1,1 +1,35 @@
 @use 'variables' as a; 
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+.btn {
+  width: 23rem;
+  display: inline-block;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  border-radius: 5rem;
+  font-size: 15px;
+  position: relative;
+  &::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: scale(1, 1.06);
+    translate: 0 .1rem;   
+    background: var(--color);
+    width: 23rem;
+    height: 5rem;
+    border-radius: 5rem;
+    z-index: -1;
+  }
+  &__ios {
+    --color: hsl(171, 67%, 29%); //once you make changes here, kindly make changes to the variable sass folder accrodingly
+    background: a.$color-ios;
+  }
+  &__mac {
+    --color: hsl(213, 90%, 28%);//once you make changes here, kindly make changes to the variable sass folder accrodingly
+    background: a.$color-mac;
+  }
+}
