@@ -1,8 +1,5 @@
 @use 'variables' as a; 
-:root {
-  --blue: #1e90ff;
-  --white: #ffffff;
-}
+
 .btn {
   width: 23rem;
   display: inline-block;
@@ -10,7 +7,7 @@
   height: 5rem;
   line-height: 5rem;
   border-radius: 5rem;
-  font-size: 15px;
+  font-size: a.$fs-300;
   position: relative;
   box-shadow: 0 1rem 2.5rem 0 var(--color);
   color: a.$color-btn;

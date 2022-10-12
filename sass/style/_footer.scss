@@ -1,0 +1,38 @@
+@use 'variables' as a; 
+
+.footer {
+  background: a.$color-footer;
+  padding: 4rem 16rem;
+  display: flex;
+  gap: 14rem;
+  width: 100vw;
+  height: 15rem;
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  &__info {
+    color: a.$color-main;
+    font-size: a.$fs-300;
+    margin-right: 10rem;
+    &:hover {
+      color: a.$color-active;
+    }
+  }
+  
+  &__social{
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  &__link {
+    font-size: 3rem;
+    color: a.$color-main;
+    &:hover {
+      color: a.$color-active;
+    }
+  }
+}
