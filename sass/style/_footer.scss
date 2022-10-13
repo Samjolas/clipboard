@@ -21,7 +21,6 @@
       color: a.$color-active;
     }
   }
-  
   &__social{
     margin-left: auto;
     display: flex;
@@ -35,4 +34,34 @@
       color: a.$color-active;
     }
   }
+}
+
+@media screen  and (max-width: 1000px) {
+  .footer {
+    padding: 4rem;
+    gap: 7rem;
+    &__info {
+      margin-right: 4rem;
+    }
+    &__social{
+      gap: 2rem;
+    }
+  }
+}
+
+@media screen  and (max-width: 500px) {
+  .footer {
+  display: grid;
+  height: auto;
+  &__logo {
+    margin: auto;
+  }
+  &__nav {
+    flex-wrap: no-wrap;
+    gap: 1rem;
+  }
+  &__info, &__social {
+    margin: auto;
+  }
+}
 }
